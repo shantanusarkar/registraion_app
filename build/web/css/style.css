@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+	background: #2c3338;
+	color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input {
+	border: none;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after { clear: both; }
+
+
+#login {
+	margin: 50px auto;
+	width: 280px;
+}
+
+#login form span {
+	background-color: #363b41;
+	border-radius: 3px 0px 0px 3px;
+	color: #606468;
+	display: block;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+#login form input {
+	height: 50px;
+}
+
+#login form input[type="text"], input[type="password"] {
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	color: #eee;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#login form input[type="submit"] {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #ea4c88;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	width: 280px;
+}
+
+#login form input[type="reset"] {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #3b4148;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	width: 280px;
+}
+
+#login form input[type="submit"]:hover {
+	background-color: #d44179;
+}
+
+#login form input[type="email"] {
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	color: #eee;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#login form select {
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	color: #eee;
+	text-decoration:blink;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	margin-top: 1em;
+	padding: 0 16px;
+	width: 198px;
+}
+
+#login form textarea {
+	background-color: #3b4148;
+	border-radius: 0px 3px 3px 0px;
+	color: #eee;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	padding: 0 16px;
+	width: 165px;
+}
+
+#login > p {
+	text-align: center;
+}
+
+input[type=email].error:not(.basic),
+input[type=email].error:focus:not(.basic),
+
+
+#login > p span {
+	padding-left: 5px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+#login-failed {max-width:330px;padding:10px; margin-top: 10px; position: relative}
